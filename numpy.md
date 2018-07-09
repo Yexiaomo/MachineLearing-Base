@@ -212,11 +212,11 @@ numpy直接提供的统计类函数
 ### numpy的统计函数(2)
 |函数|说明|
 |-|-|
-|min(a) max(a)|计算数组a中元素的最小大值|
-|argmin(a) argmax(a)|计算数组a中元素最小值,最大值的降一维后下标|
+|min(a), max(a)|计算数组a中元素的最小大值, 参数可用axis指定某一列|
+|argmin(a,axis=),argmax(a,axis=)|`axis=0`返回每列最小大值索引,`axis=1`返回每行最小大值索引(注:如果最大值有多个返回最前面那个)|
 |unravel_index(index, shape)|根据shape将一维下标index转换成多维下标|
 |ptp(a)|计算数组a中元素最大值与最小值的差|
-|median(a)|计算数组a中元素的中位数(中值)|
+|median(a)|计算数组a中元素的中位数(中值),可指定axis|
 
 ## numpy的梯度函数
 >梯度:连续值之间的变化率,即斜率
