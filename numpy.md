@@ -88,11 +88,18 @@ ndarray一维数组的切片和list一维的操作基本一致
 ### ndarray数组向列表转换
     ls = a.tolist()
 
-### ndarray数组的运算
+### ndarray数组的操作
+
+|函数|说明|
+|-|-|
+|[np.pad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pad.html)|数组填充函数|
+|[np.diag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html)|提取对角线或构造对角线阵列(贼好玩)|
+|[np.intersect1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.intersect1d.html)|找到两个或多个数组的交集,并以ndarray的形式返回(多个相同值只返回一个))|
+
 #### 数组与标量的运算
 数组与标量之间的运算作用于数组的每一个元素
 
-#### numpy中的一元函数
+#### numpy数组的运算
 对ndarray中的数据执行元素级运算的函数
 
 |函数|说明|
@@ -107,15 +114,13 @@ ndarray一维数组的切片和list一维的操作基本一致
 |np.cos(x) np.cosh(x) np.sin(x) np.sinh(x) np.tan(x) np.tanh()|计算数组各元素的普通型和双曲型三角形函数|
 |np.exp(x)|计算数组各元素的指数值|
 |np.sign(x)|计算数组各元素的符号值, 1(+), 0 , -1(-)|
-#### numpy中二元函数
-|函数|说明|
-|-|-|
 |+ - * / **|两个数组各元素进行对应的运算|
 |np.maximum(x,y) np.fmax() np.miniumum(x,y) np.fmin()|元素级的最大值/最小值计算|
 |np.mod(x,y)|元素级的模运算|
 |np.copysign(x,y)|将数组y中各元素的符号赋值给数组x对应元素|
 |> < >= <= == !=| 算术比较,产生布尔型数组|
 
+####
 ## numpy中的矩阵
 具体使用方法和np的数组大致相同
 ### 创建矩阵
