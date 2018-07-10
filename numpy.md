@@ -97,6 +97,8 @@ ndarray一维数组的切片和list一维的操作基本一致
 |[np.pad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pad.html)|数组填充函数|
 |[np.diag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html)|提取对角线或构造对角线阵列(贼好玩)|
 |[np.intersect1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.intersect1d.html)|找到两个或多个数组的交集,并以ndarray的形式返回(多个相同值只返回一个))|
+|np.vstack((a,b))|垂直拼合数组(可以想象成b放在a下面)|
+|np.hstack((a,b))|水平拼合数组(可以想象成b放在a右边)|
 
 #### 数组与标量的运算
 数组与标量之间的运算作用于数组的每一个元素
@@ -109,8 +111,8 @@ ndarray一维数组的切片和list一维的操作基本一致
 |np.abs(x)|np.fabs(x)|计算数组各元素的绝对值|
 |np.sqrt(x)|计算数组各元素的平方根|
 |np.square(x)|计算数组各元素的平方|
-|np.log(x)|np.log10(x)|np.log2(x)|计算数组各元素的自然对数,10底对数和2底对数|
-|np.ceil(x)|np.floor(x)|计算数组各元素的ceiling值或floor值|
+|np.log(x)|np.log10(x)\|np.log2(x)\|计算数组各元素的自然对数,10底对数和2底对数|
+|np.ceil(x)|np.floor(x)\|计算数组各元素的ceiling值或floor值|
 |np.rint(x)|计算数组各元素的四舍五入值|
 |np.modf(x)|将数组各元素的小数和整数部分以两个独立的数组形式返回
 |np.cos(x) np.cosh(x) np.sin(x) np.sinh(x) np.tan(x) np.tanh()|计算数组各元素的普通型和双曲型三角形函数|
@@ -121,8 +123,7 @@ ndarray一维数组的切片和list一维的操作基本一致
 |np.mod(x,y)|元素级的模运算|
 |np.copysign(x,y)|将数组y中各元素的符号赋值给数组x对应元素|
 |> < >= <= == !=| 算术比较,产生布尔型数组|
-|np.vstack((a,b))|垂直拼合数组(可以想象成b放在a下面)|
-|np.hstack((a,b))|水平拼合数组(可以想象成b放在a右边)|
+
 
 ## numpy中的矩阵
 具体使用方法和np的数组大致相同
