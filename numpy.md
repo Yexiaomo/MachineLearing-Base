@@ -54,32 +54,6 @@
 ### ndarray数组的切片和索引
 ndarray一维数组的切片和list一维的操作基本一致
 二维数组:list只能一级切片,ndarray可以多级切片
-如
-```python
-    Out[3]:a
-    Out[4]:
-    array([[1, 2, 3],
-           [4, 5, 6],
-           [7, 8, 9]])
-    In [5]: b = a.tolist()
-
-    In [6]: b
-    Out[6]: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-
-    In [7]: a[:2,:2] # 前一个参数指取从0到2行前的,也就是0,1行;后一个参数是对列进行操作
-    Out[7]:
-    array([[1, 2],
-           [4, 5]])
-
-    In [8]: b[:2,:2] # 这里就会报错
-    ---------------------------------------------------------------------------
-    TypeError                                 Traceback (most recent call last)
-    <ipython-input-8-fe85d3721687> in <module>()
-    ----> 1 b[:2,:2]
-
-    TypeError: list indices must be integers or slices, not tuple
-```
-
 
 ### ndarray数组的类型变换
     new_a = a.astype(new_type)
