@@ -50,8 +50,6 @@
 |.resize(shape)|与 .reshape()功能一致,但修改原数组|
 |.swapaxes(ax1, ax2)|将数组n个维度中两个维度进行调换|
 |.flatten()|将数组进行降维,返回折叠后的一维数组,原数组不变|
-|.hsplit(a, k)|k须被a整除(展示这样理解)沿`横轴`分割数组(不好理解,建议多练习)|
-|.vsplit(a, k)|k须被a整除(展示这样理解)沿`竖轴`分割数组(不好理解,建议多练习)|
 
 ### ndarray数组的切片和索引
 ndarray一维数组的切片和list一维的操作基本一致
@@ -99,7 +97,9 @@ ndarray一维数组的切片和list一维的操作基本一致
 |[np.intersect1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.intersect1d.html)|找到两个或多个数组的交集,并以ndarray的形式返回(多个相同值只返回一个))|
 |np.vstack((a,b))|垂直拼合数组(可以想象成b放在a下面)|
 |np.hstack((a,b))|水平拼合数组(可以想象成b放在a右边)|
-
+|.split(a)|将数组分割成多个子数组(axis=0相当于vsplit, axis=1相当于hsplit|
+|.vsplit(a)|将数组分成水平（列）的多个子数组|
+|.hsplit(a)|将数组垂直（多行）分割成多个子数组|
 #### 数组与标量的运算
 数组与标量之间的运算作用于数组的每一个元素
 
