@@ -14,16 +14,16 @@
 
 |颜色字符|说明|颜色字符|说明|
 |-|-|-|-|
-|'b'|蓝色|'m'|洋红色色|
+|'b'|蓝色|'m'|洋红色|
 |'g'|绿色|'y'|黄色|
 |'r'|红色|'k'|黑色|
-|'c'|青绿色色|'w'|白色|
+|'c'|青绿色|'w'|白色|
 |'#008000'|RGB某颜色|'0.8'|灰度值字符串|
 
 |风格字符|说明|
 |-|-|
 |'-'|实线|
-|'--'|破折线线|
+|'--'|破折线|
 |'-.'|点划线|
 |':'|虚线|
 |''  ' '|无线条|
@@ -41,7 +41,7 @@
 #### plot()函数中的 **kwargs 参数
 ***kwargs : 第二组或更多(x,y,format_string)
 - color : 控制颜色,color='green'
-- linstyle : 线条风格,linstyle='dashed'
+- linestyle : 线条风格,linestyle='dashed'
 - marker : 标记风格,marker='o'
 - markerfacecolor : 标记颜色,markerfacecolor='blue'
 - markersize : 标记尺寸,markersize=20
