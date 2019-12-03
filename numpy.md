@@ -99,10 +99,15 @@ ndarray一维数组的切片和list一维的操作基本一致
 |> < >= <= == !=| 算术比较,产生布尔型数组|
 
 
-## numpy中的矩阵
-具体使用方法和np的数组大致相同
-### 创建矩阵
-`np.mat() 函数将数组转化为矩阵`
+## numpy中的矩阵运算
+~~具体使用方法和np的数组大致相同~~
+~~`np.mat() 函数将数组转化为矩阵`~~
+|函数|说明|
+|-|-|
+|np.mat(ndarray)|将ndarray转为矩阵|
+|np.dot(ndarray, ndarray)|实现两个ndarray的矩阵元素|
+|np.linalg.inv(ndarray)|矩阵的逆|
+|ndarray.T|矩阵转置|
 
 ## numpy中的数据读取
 ### 一维或二维的数据存取
