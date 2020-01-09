@@ -21,9 +21,7 @@
 ## 学习任务
 
 ### Task01：机器学习概述（1天）
-已完成
-https://github.com/Yexiaomo/MachineLearing-Base/blob/master/Exe-Datawhale-%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95%E6%A2%B3%E7%90%86/task01/task01-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.ipynb
-
+[已完成,点击查看](https://github.com/Yexiaomo/MachineLearing-Base/blob/master/Exe-Datawhale-%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95%E6%A2%B3%E7%90%86/task01/task01-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%A6%82%E8%BF%B0.ipynb)
 
 <b>理论部分</b>
 
